@@ -1,9 +1,9 @@
 <scheme name="Visual Studio 2013" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2018-12-25T23:15:43</property>
+    <property name="created">2018-12-27T23:12:05</property>
     <property name="ide">CLion</property>
     <property name="ideVersion">2018.3.2.0.0</property>
-    <property name="modified">2018-12-25T23:16:54</property>
+    <property name="modified">2018-12-27T23:12:25</property>
     <property name="originalScheme">Visual Studio 2013</property>
   </metaInfo>
   <colors>
@@ -65,6 +65,22 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
+    <option name="BASH.FUNCTION_DEF_NAME">
+      <value>
+        <option name="FOREGROUND" value="c57633" />
+      </value>
+    </option>
+    <option name="BASH.INTERNAL_COMMAND">
+      <value>
+        <option name="FOREGROUND" value="4ec9b0" />
+      </value>
+    </option>
+    <option name="BASH.SHEBANG">
+      <value>
+        <option name="FOREGROUND" value="57a64a" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a2323" />
@@ -115,7 +131,6 @@
     <option name="CONSOLE_SYSTEM_OUTPUT">
       <value>
         <option name="FOREGROUND" value="b5cea8" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_USER_INPUT">
@@ -525,6 +540,11 @@
         <option name="FOREGROUND" value="dcdcdc" />
       </value>
     </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="353843" />
+      </value>
+    </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="808080" />
@@ -623,7 +643,9 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="bc3f3c" />
+        <option name="EFFECT_COLOR" value="bc3f3c" />
+        <option name="ERROR_STRIPE_COLOR" value="bc3f3c" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
   </attributes>
