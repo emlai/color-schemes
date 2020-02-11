@@ -1,9 +1,9 @@
 <scheme name="Neutral Light" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2019-11-25T01:11:13</property>
+    <property name="created">2020-02-11T15:45:21</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2019.3.0.0</property>
-    <property name="modified">2019-11-25T01:11:18</property>
+    <property name="ideVersion">2020.1.0.0</property>
+    <property name="modified">2020-02-11T15:45:35</property>
     <property name="originalScheme">Neutral Light</property>
   </metaInfo>
   <attributes>
@@ -35,7 +35,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="660e7a" />
+        <option name="FOREGROUND" value="795e26" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -65,7 +65,7 @@
     <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="660e7a" />
+        <option name="FOREGROUND" value="795e26" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -91,12 +91,6 @@
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="JS.REGEXP" baseAttributes="DEFAULT_STRING" />
-    <option name="TEXT">
-      <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ffffff" />
-      </value>
-    </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="800000" />
