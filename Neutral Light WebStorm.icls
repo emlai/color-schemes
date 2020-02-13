@@ -1,9 +1,9 @@
 <scheme name="Neutral Light" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2020-02-11T15:45:21</property>
+    <property name="created">2020-02-13T15:50:54</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-02-11T15:45:35</property>
+    <property name="modified">2020-02-13T15:51:08</property>
     <property name="originalScheme">Neutral Light</property>
   </metaInfo>
   <attributes>
@@ -26,6 +26,11 @@
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="808080" />
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="795e26" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
@@ -83,9 +88,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION">
-      <value />
-    </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
     <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
     <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
