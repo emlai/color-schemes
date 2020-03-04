@@ -1,9 +1,9 @@
 <scheme name="Neutral Light" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2020-02-13T15:50:54</property>
+    <property name="created">2020-03-04T13:17:29</property>
     <property name="ide">WebStorm</property>
-    <property name="ideVersion">2020.1.0.0</property>
-    <property name="modified">2020-02-13T15:51:08</property>
+    <property name="ideVersion">2019.3.3</property>
+    <property name="modified">2020-03-04T13:17:39</property>
     <property name="originalScheme">Neutral Light</property>
   </metaInfo>
   <attributes>
@@ -17,15 +17,25 @@
         <option name="FOREGROUND" value="808080" />
       </value>
     </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="a0" />
+      </value>
+    </option>
     <option name="DEFAULT_CONSTANT">
       <value>
         <option name="FOREGROUND" value="800000" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="808080" />
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="795e26" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
@@ -66,12 +76,21 @@
         <option name="FOREGROUND" value="8000" />
       </value>
     </option>
+    <option name="DEFAULT_PREDEFINED_SYMBOL">
+      <value>
+        <option name="FOREGROUND" value="795e26" />
+      </value>
+    </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="DEFAULT_STATIC_FIELD">
+      <value>
+        <option name="FOREGROUND" value="660e7a" />
+      </value>
+    </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="795e26" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -98,7 +117,7 @@
       <value>
         <option name="FOREGROUND" value="800000" />
         <option name="FONT_TYPE" value="1" />
-        <option name="ERROR_STRIPE_COLOR" value="54aae3" />
+        <option name="ERROR_STRIPE_COLOR" value="800000" />
       </value>
     </option>
     <option name="TS.PRIMITIVE.TYPES">
