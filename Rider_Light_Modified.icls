@@ -1,9 +1,9 @@
 <scheme name="Rider Light Modified" version="142" parent_scheme="Default">
   <metaInfo>
-    <property name="created">2021-06-24T15:27:52</property>
-    <property name="ide">Python</property>
-    <property name="ideVersion">2021.1.2.0.0</property>
-    <property name="modified">2021-06-24T15:27:58</property>
+    <property name="created">2024-02-22T20:41:51</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2023.3.4.0.0</property>
+    <property name="modified">2024-02-22T20:41:56</property>
     <property name="originalScheme">Rider Light Modified</property>
   </metaInfo>
   <colors>
@@ -46,10 +46,10 @@
     <option name="SOFT_WRAP_SIGN_COLOR" value="949494" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="888899c0" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="88889940" />
-    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="e8e8e80" />
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="8e8e80" />
     <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="88889940" />
     <option name="ScrollBar.Mac.Transparent.thumbColor" value="88889940" />
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="e8e8e80" />
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="8e8e80" />
     <option name="ScrollBar.Mac.hoverThumbBorderColor" value="888899c0" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="88889940" />
     <option name="ScrollBar.Mac.hoverTrackColor" value="e8e8e8" />
@@ -58,10 +58,10 @@
     <option name="ScrollBar.Mac.trackColor" value="e8e8e8" />
     <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="888899c0" />
     <option name="ScrollBar.Transparent.hoverThumbColor" value="88889940" />
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="e8e8e80" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="8e8e80" />
     <option name="ScrollBar.Transparent.thumbBorderColor" value="88889940" />
     <option name="ScrollBar.Transparent.thumbColor" value="88889940" />
-    <option name="ScrollBar.Transparent.trackColor" value="e8e8e80" />
+    <option name="ScrollBar.Transparent.trackColor" value="8e8e80" />
     <option name="ScrollBar.background" value="e8e8e8" />
     <option name="ScrollBar.hoverThumbBorderColor" value="888899c0" />
     <option name="ScrollBar.hoverThumbColor" value="88889940" />
@@ -75,7 +75,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_3" value="ebebeb" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="f5ebea" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="ffeae8" />
-    <option name="WHITESPACES" value="d0d0d0" />
+    <option name="WHITESPACES" value="e0e0e0" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="f2ddc4" />
   </colors>
   <attributes>
@@ -368,11 +368,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="8c6c41" />
-      </value>
-    </option>
+    <option name="CUSTOM_KEYWORD1_ATTRIBUTES" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="6b2fba" />
@@ -388,26 +384,10 @@
         <option name="FOREGROUND" value="c73c4a" />
       </value>
     </option>
-    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="248700" />
-      </value>
-    </option>
-    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="248700" />
-      </value>
-    </option>
-    <option name="CUSTOM_NUMBER_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="ab2f6b" />
-      </value>
-    </option>
-    <option name="CUSTOM_STRING_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="8c6c41" />
-      </value>
-    </option>
+    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_LINE_COMMENT" />
+    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="CUSTOM_NUMBER_ATTRIBUTES" baseAttributes="DEFAULT_NUMBER" />
+    <option name="CUSTOM_STRING_ATTRIBUTES" baseAttributes="DEFAULT_STRING" />
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="941290" />
@@ -608,7 +588,6 @@
         <option name="FOREGROUND" value="808080" />
       </value>
     </option>
-    <option name="DEFAULT_PARAMETER" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_PARENTHS">
       <value>
         <option name="FOREGROUND" value="808080" />
@@ -2010,9 +1989,9 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="826a00" />
-        <option name="ERROR_STRIPE_COLOR" value="cc9c00" />
-        <option name="EFFECT_TYPE" value="2" />
+        <option name="BACKGROUND" value="faeed9" />
+        <option name="ERROR_STRIPE_COLOR" value="ffc400" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -2109,6 +2088,11 @@
     <option name="YAML_TEXT">
       <value>
         <option name="FOREGROUND" value="383838" />
+      </value>
+    </option>
+    <option name="org.rust.MUT_BINDING">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
   </attributes>
